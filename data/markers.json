@@ -1,0 +1,85 @@
+{
+  "campussen": [
+    {
+      "Artist": "Glen Baldridge",
+      "Titel": "Dream Burner from Pulled in Brooklyn",
+      "Date": 2019,
+      "Publisher": "The International Print Center, New York (IPCNY)",
+      "Copyright": "© 2020 Glen Baldridge",
+      "Portfolio": "Pulled in Brooklyn",
+
+    },
+    {
+      "Artist": "Alex Dodge",
+      "Titel": "Fashionable Scarves for Any Occasion from Pulled in Brooklyn",
+      "Date": 2019,
+      "Publisher": "The International Print Center, New York (IPCNY)",
+      "Copyright": "© 2020 Alex Dodge",
+      "Portfolio": "Pulled in Brooklyn",
+    },
+    {
+      "Artist": "Charline von Heyl",
+      "Titel": "Zonzamas from Pulled in Brooklyn",
+      "Date": 2019,
+      "Publisher": "The International Print Center, New York (IPCNY)",
+      "Copyright": "© 2020 Charline von Heyl",
+      "Portfolio": "Pulled in Brooklyn",
+    },
+    {
+      "Artist": "Nicola López",
+      "Titel": "BK from Pulled in Brooklyn",
+      "Date": 2019,
+      "Publisher": "The International Print Center, New York (IPCNY)",
+      "Copyright": "© 2020 Nicola López",
+      "Portfolio": "Pulled in Brooklyn",
+    },
+    {
+      "Artist": "Valentin Jeck, Andrija Mutnjaković",
+      "Titel": "National and University Library of Kosovo,Pristina, Kosovo",
+      "Date": 2017,
+      "Publisher": "",
+      "Copyright": "",
+      "Portfolio": "Gift of Robert Menschel",
+    },
+    {
+      "Artist": "Marilyn Minter",
+      "Titel": "Absinthe (for Parkett, no. 100/101)",
+      "Date": 2017,
+      "Publisher": "Parkett Publishers,Zürich and New York",
+      "Copyright": "© 2020 Marilyn Minter",
+      "Portfolio": "Monroe Wheeler Fund",
+    },
+    {
+      "Artist": "Barbara Kruger",
+      "Titel": "Untitled from Art Against Immigration Ban Letter Portfolio",
+      "Date": 2017,
+      "Publisher": "Art Against Immigration Ban",
+      "Copyright": "",
+      "Portfolio": "Art Against ImmigrationBan Letter Portfolio",
+    },
+    {
+      "Artist": "Julie Mehretu",
+      "Titel": "Untitled from Art Against Immigration Ban Letter Portfolio",
+      "Date": 2017,
+      "Publisher": "Art Against Immigration Ban",
+      "Copyright": "",
+      "Portfolio": "Art Against ImmigrationBan Letter Portfolio",
+    },
+    {
+      "Artist": " Félix Fénéon",
+      "Titel": "The Anarchist and the Avant-Garde From Signac to Matisse and Beyond",
+      "Date": 1890,
+      "Publisher": "The Museum of Modern Art, New York",
+      "Copyright": "© MoMA New York",
+      "Portfolio": "Gift of Mr and Mrs David Rockefeller",
+    },
+    {
+      "Artist": "Sara Cwynar",
+      "Titel": "Girl From Contact Sheet 3 (Darkroom Manuals)",
+      "Date": 2018,
+      "Publisher": "Art Against Immigration Ban",
+      "Copyright": "",
+      "Portfolio": "Art Against ImmigrationBan Letter Portfolio",
+    }
+  ]
+}

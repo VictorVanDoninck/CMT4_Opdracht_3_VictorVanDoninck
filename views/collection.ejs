@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>MuseumApp</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="/css/collectionstyle.css">
+
+</head>
+<body>
+
+<div class="wrapper">
+
+ <a href="home"class="back-btn"> <img src="images/arrow.png" alt="back" wiidth="20px" height="50px"> </a>
+
+    <div class="head">
+      <h1>MoMA</h1>
+      <p>Museum of Modern Art</p>
+    </div>
+
+
+    <div class="filters filter-button-group">
+    		  <ul><h4>
+    		    <li class="active" data-filter="*">All</li>
+    		    <li data-filter=".photography">photography</li>
+    		    <li data-filter=".Illustrative">Illustrative</li>
+    		    <li data-filter=".typographic">typographic</li>
+    		  </h4></ul>
+    		</div>
+
+    		<div class="content grid">
+
+    		  <a href="/detail01"><div class="single-content Illustrative grid-item">
+    				<img class="p2" src="images/001.png" height="150" width="110">
+
+            <div class="text">
+            <h1>Glen Baldridge</h1>
+            <h2>Dream Burner from Pulled in Brooklyn
+            </h2>
+            </div>
+
+    		  </div></a>
+
+          <a href="/detail02"><div class="single-content Illustrative  grid-item">
+            <img class="p2" src="images/002.png" height="150" width="110">
+
+            <div class="text">
+            <h1>Alex Dodge</h1>
+            <h2>Fashionable Scarves for Any Occasion from Pulled in Brooklyn</h2>
+            </div>
+
+          </div></a>
+
+          <a href="/detail03"><div class="single-content Illustrative  grid-item">
+            <img class="p2" src="images/003.png" height="150" width="110">
+
+            <div class="text">
+            <h1>Charline von Heyl</h1>
+            <h2>Zonzamas from Pulled in Brooklyn
+            </h2>
+            </div>
+
+          </div></a>
+
+          <a href="/detail04"><div class="single-content photography  grid-item">
+            <img class="p2" src="images/004.png" height="150" width="110">
+
+            <div class="text">
+            <h1>Nicola López</h1>
+            <h2>BK from Pulled in Brooklyn</h2>
+            </div>
+
+          </div></a>
+
+          <a href="/detail05"><div class="single-content photography  grid-item">
+            <img class="p2" src="images/005.png" height="150" width="110">
+
+            <div class="text">
+            <h1>Valentin Jeck, Andrija Mutnjaković</h1>
+            <h2>National and University Library of Kosovo, Pristina, Kosovo</h2>
+            </div>
+
+          </div></a>
+
+          <a href="/detail06"><div class="single-content photography  grid-item">
+            <img class="p2" src="images/006.png" height="150" width="110">
+
+            <div class="text">
+            <h1>Marilyn Minter</h1>
+            <h2>Absinthe (for Parkett, no. 100/101)</h2>
+            </div>
+
+          </div></a>
+
+          <a href="/detail07"><div class="single-content typographic  grid-item">
+            <img class="p2" src="images/007.png" height="150" width="110">
+
+            <div class="text">
+            <h1>Barbara Kruger</h1>
+            <h2>Untitled from Art Against Immigration Ban Letter Portfolio</h2>
+            </div>
+
+          </div></a>
+
+          <a href="/detail08"><div class="single-content typographic  grid-item">
+            <img class="p2" src="images/008.png" height="150" width="110">
+
+            <div class="text">
+            <h1>Joan Jonas</h1>
+            <h2>Untitled from Art Against Immigration Ban Letter Portfolio</h2>
+            </div>
+
+          </div></a>
+
+          <a href="/detail09b"><div class="single-content Illustrative  grid-item">
+            <img class="p2" src="images/009.png" height="150" width="110">
+
+            <div class="text">
+            <h1>Félix Fénéon</h1>
+            <h2>The Anarchist and the Avant-Garde from signac to matisse and beyond</h2>
+            </div>
+
+          </div></a>
+
+          <a href="/detail10"><div class="single-content photography grid-item">
+            <img class="p2" src="images/010.png" height="150" width="110">
+
+            <div class="text">
+            <h1>Sara Cwynar</h1>
+            <h2>Girl From Contact Sheet 3 (Darkroom Manuals)</h2>
+            </div>
+
+          </div></a>
+
+
+
+
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js'></script><script  src="./script.js"></script>
+
+
+<script>
+$(document).ready( function() {
+
+$('.grid').isotope({
+  itemSelector: '.grid-item',
+});
+
+// filter items on button click
+$('.filter-button-group').on( 'click', 'li', function() {
+  var filterValue = $(this).attr('data-filter');
+  $('.grid').isotope({ filter: filterValue });
+  $('.filter-button-group li').removeClass('active');
+  $(this).addClass('active');
+});
+    })
+
+
+</script>
+</body>
+</html>

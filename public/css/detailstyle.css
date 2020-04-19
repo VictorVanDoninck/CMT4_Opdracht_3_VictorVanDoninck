@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+* {
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: #1f252d;
+}
+
+.wrapper {
+  height: 650px;
+  width: 350px;
+  border-radius: 15px;
+  background: white;
+  position: relative;
+  margin: 20px auto 0;
+}
+
+.back-btn {
+  position: absolute;
+  z-index: 10;
+  top: 3px;
+  left: -8px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+.back-btn:hover {
+  opacity: 0.8;
+}
+.head{
+  padding-top: 5px;
+}
+.head h1{
+  line-height: 45px;
+  color: black;
+}
+.head p{
+  margin: 0;
+  line-height:1px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+.Showcase {
+  padding-bottom: 20px;
+  left: 25px;
+  margin-top: 30px;
+  padding-top: 5px;
+  height: 545px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 350px;
+  background-color: #FF5A82;
+}
+
+.Showcase h1{
+  text-align: left;
+  line-height: 10px;
+  padding-top: 5px;
+  margin:5px;
+  margin-left:15px;
+
+}
+.Showcase h2{
+  text-align: left;
+  line-height: 25px;
+  margin:5px;
+  margin-left:15px;
+
+}
+.Showcase p{
+  text-align: left;
+  margin:5px;
+}
+
+h1 {
+  color: black;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+  line-height: 70px;
+}
+img{
+  padding-top: 5px;
+  padding-left: 15px;
+
+}

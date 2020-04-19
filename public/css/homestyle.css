@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+* {
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: #1f252d;
+}
+
+.wrapper {
+  height: 650px;
+  width: 350px;
+  border-radius: 15px;
+  background: white;
+  position: relative;
+  margin: 20px auto 0;
+}
+
+.head{
+  padding-top: 5px;
+}
+.head h1{
+  line-height: 45px;
+  color: black;
+}
+.head p{
+  margin: 0;
+  line-height:1px;
+  padding: 0;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+.Showcase {
+  padding-bottom: 20px;
+  left: 25px;
+  margin-top: 30px;
+  padding-top: 5px;
+  height: 100px;
+  width: 350px;
+  background-color: #FF5A82;
+}
+
+.Showcase h1{
+  text-align: left;
+  line-height: 20px;
+  margin:5px;
+}
+.Showcase p{
+  text-align: left;
+  margin:5px;
+}
+
+.Collection {
+  padding-bottom: 20px;
+  left: 25px;
+  margin-top: 125px;
+  padding-top: 5px;
+  height: 150px;
+  width: 350px;
+  background-color: #968be0;
+}
+
+.Collection h1{
+  text-align: left;
+  line-height: 20px;
+  margin:5px;
+}
+.Collection p{
+  text-align: left;
+  margin:5px;
+}
+.contact {
+  height: 60px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 75px;
+  background-color: #D4C5AF;
+}
+.contact h1{
+  text-align: center;
+  line-height: 30px;
+}
+.contact p{
+  text-align: center;
+}
+h1 {
+  color: black;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+  line-height: 70px;
+}
